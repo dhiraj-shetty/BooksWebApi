@@ -7,6 +7,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+// Controller defines the External Interface of your API i.e.
+// Types of HTTP Operations supported
+// Input for each Operation
+// Output for each Operation
+// URL for invoking the operation
+
 namespace my_books.Controllers
 {
     [Route("api/[controller]")]

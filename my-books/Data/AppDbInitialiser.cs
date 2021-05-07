@@ -6,6 +6,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+// This Class is used to implement a static method called Seed
+// Seed method will initialise only an Empty Database with Seed Data
+
 namespace my_books.Data
 {
     public class AppDbInitialiser

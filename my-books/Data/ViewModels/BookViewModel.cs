@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+// View Model contains that part of the data that will be operated upon by the end user
+// View Model definition(s) come up in the Swagger UI 
+
 namespace my_books.Data.ViewModels
 {
     public class BookViewModel

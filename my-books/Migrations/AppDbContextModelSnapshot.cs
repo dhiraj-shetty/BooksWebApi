@@ -6,6 +6,10 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using my_books.Data;
 
+// This is auto generated Code
+// The file is added to the Migrations folder when the first migration is created, and updated with each subsequent migration.
+// It enables the migrations framework to calculate the changes required to bring the database up to date with the model.
+
 namespace my_books.Migrations
 {
     [DbContext(typeof(AppDbContext))]

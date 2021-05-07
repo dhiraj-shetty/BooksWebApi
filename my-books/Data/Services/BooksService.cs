@@ -5,6 +5,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+// The Service class is where your Core Business Logic Goes
+// It contains the various Business Use cases that are supported by you App
+// Internally each use case needs to access/modify the data along with respecting the business rules
+// Externally each of these use cases will be called by the Controller to meet its API Specification
+
 namespace my_books.Data.Services
 {
     public class BooksService

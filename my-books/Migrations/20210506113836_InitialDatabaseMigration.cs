@@ -1,6 +1,11 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
+// This is an auto generated code
+// The migrations feature in EF Core provides a way to incrementally update the database schema to keep it in sync with the application's data model while preserving existing data in the database.
+// When a data model change is introduced, the developer uses EF Core tools to add a corresponding migration describing the updates necessary to keep the database schema in sync.
+// EF Core compares the current model against a snapshot of the old model to determine the differences, and generates migration source files
+
 namespace my_books.Migrations
 {
     public partial class InitialDatabaseMigration : Migration

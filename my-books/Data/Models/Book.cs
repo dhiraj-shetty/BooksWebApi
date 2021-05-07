@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+// Models provide the C sharp definition of your Database tables
+// For each Table Column, we can define the data type and whether they are NULLABLE
+
 namespace my_books.Data.Models
 {
     public class Book

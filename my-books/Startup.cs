@@ -28,7 +28,8 @@ namespace my_books
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
+        // ConfigureServices method gets called by the runtime. Use this method to add services to the container.
+        // This method is Optional and is called by the host before the Configure method to configure the app's services.
         public void ConfigureServices(IServiceCollection services)
         {
 
@@ -47,6 +48,7 @@ namespace my_books
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        // The Configure method is used to specify how the app responds to HTTP requests
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -66,7 +68,9 @@ namespace my_books
             {
                 endpoints.MapControllers();
             });
-
+           
+            // Seed the DB with Initial Data 
+            // Internally we check whether the Database is empty before seeding
             AppDbInitialiser.Seed(app);
         }
     }
